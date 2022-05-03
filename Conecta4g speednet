@@ -1,1 +1,52 @@
-1
+{
+  "Version": "1.0.1",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Conecta4g%20speednet",
+  "Sms": "xxx",
+  "EmailFeedback": "xxx",
+  "UrlContato": "xxx",
+  "UrlTermos": "xxx",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "SpeedNet",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "gnnettop.ga",
+      "CheckUser": "http://2804:5364:4000:4:4:4:b39:91b9:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gnnettop.ga[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.57.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    }
+  ]
+}
