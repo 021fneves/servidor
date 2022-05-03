@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.6",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Conecta4g%20speednet",
   "Sms": "xxx",
@@ -26,11 +26,11 @@
   ],
   "Servers": [
     {
-      "Name": "SpeedNet Plus",
+      "Name": "SpeedNet",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "gnnettop.ga",
-      "CheckUser": "http://2804:5364:4000:4:4:4:b39:91b9:5454/checkUser",
+      "CheckUser": "http://45.162.229.245:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
