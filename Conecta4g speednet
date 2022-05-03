@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Conecta4g%20speednet",
   "Sms": "xxx",
@@ -26,7 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "SpeedNet",
+      "Name": "SpeedNet Plus",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "gnnettop.ga",
