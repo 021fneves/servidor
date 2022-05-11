@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "Mudanças na vivo",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
@@ -26,7 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor Br",
+      "Name": "Servidor Br³",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "www.galego.xyz",
