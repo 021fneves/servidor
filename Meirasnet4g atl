@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "Mudanças na vivo",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
@@ -71,7 +71,7 @@
     {
     "Name": "VIVO 4 ",
       "FLAG": "vivo",
-      "Payload": "GET /? HTTP/1.0[lf]Host: www.galego.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET sni://planos.vivo.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "planos.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
