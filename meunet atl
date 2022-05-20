@@ -1,8 +1,8 @@
 {
   "Version": "1.0.8",
   "ReleaseNotes": "Mudanças na claro 01. Testem!!",
-  "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
-  "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
+  "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
+  "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "",
@@ -26,11 +26,11 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor Br³",
+      "Name": "BRASIL ONE",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "www.galego.xyz",
-      "CheckUser": "http://15.229.18.30:5454/checkUser",
+      "ServerIP": "meussh.top",
+      "CheckUser": "http://177.153.60.193:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -41,7 +41,7 @@
     {
       "Name": "VIVO 1",
       "FLAG": "vivo",
-      "Payload": "GET sni://vigia.vivo.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://vigia.vivo.com.br HTTP/1.1[crlf]Host: meussh.top[crlf]X-Forward-Host: meussh.top[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
@@ -61,7 +61,7 @@
     {
       "Name": "VIVO 3",
       "FLAG": "vivo",
-      "Payload": "GET /? HTTP/1.0[lf]Host: www.galego.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET /? HTTP/1.0[lf]Host: meussh.top[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.80",
@@ -71,7 +71,7 @@
     {
     "Name": "VIVO 4 ",
       "FLAG": "vivo",
-      "Payload": "GET sni://planos.vivo.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://planos.vivo.com.br HTTP/1.1[crlf]Host: meussh.top[crlf]X-Forward-Host: meussh.top[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "planos.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
@@ -81,7 +81,7 @@
     {
       "Name": "CLARO 1",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: meussh.top[crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
@@ -151,7 +151,7 @@
     {
       "Name": "Oi 3",
       "FLAG": "oi",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: www.galego.xyztvps.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: meussh.top[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -171,8 +171,8 @@
     {
       "Name": "TIM 2",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: www.galego.xyz [crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.galego.xyz",
+      "Payload": "GET / HTTP/1.1[crlf]Host: meussh.top [crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "meussh.top",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
@@ -191,7 +191,7 @@
     {
       "Name": "TIM 4",
       "FLAG": "tim",
-      "Payload": "GET wss://emartim.com.br/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://emartim.com.br/ HTTP/1.1[crlf]Host: meussh.top[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "emartim.com.br",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "",
