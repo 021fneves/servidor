@@ -1,6 +1,6 @@
 {
-  "Version": "1.1",
-  "ReleaseNotes": "Mudanças na TIM, Claro 01 e Oi 1. Testem!",
+  "Version": "1.2",
+  "ReleaseNotes": "Três novas configurações alternativas da claro, testem!",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
   "EmailFeedback": "",
@@ -26,7 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "BRASIL ONE",
+      "Name": "SERVIDOR BRASIL ONE",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "one.meussh.top",
@@ -128,6 +128,35 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+    Name": "CLARO ALTERNATIVO [01]",
+      "FLAG": "claro",
+      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "boom4u.com.br",
+      "TlsIP": "boom4u.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "CLARO ALTERNATIVO [02]",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "www.boom4u.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "CLARO ALTERNATIVO [03]",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "172.67.201.105",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
     {
       "Name": "Oi 01",
       "FLAG": "oi",
