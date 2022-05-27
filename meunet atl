@@ -29,7 +29,7 @@
       "Name": "SERVIDOR BRASIL ONE",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "one.meussh.top",
+      "ServerIP": "meussh.top",
       "CheckUser": "http://23.238.185.198:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -128,7 +128,8 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-    Name": "CLARO ALTERNATIVO [01]",
+    {
+      "Name": "CLARO ALTERNATIVO [01]",
       "FLAG": "claro",
       "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "boom4u.com.br",
@@ -136,7 +137,7 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-   },
+    },
     {
       "Name": "CLARO ALTERNATIVO [02]",
       "FLAG": "claro",
@@ -146,7 +147,7 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-   },
+    },
     {
       "Name": "CLARO ALTERNATIVO [03]",
       "FLAG": "claro",
@@ -156,7 +157,7 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-   },
+    },
     {
       "Name": "Oi 01",
       "FLAG": "oi",
