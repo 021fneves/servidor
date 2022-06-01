@@ -1,5 +1,5 @@
 {
-  "Version": "1.3",
+  "Version": "1.4",
   "ReleaseNotes": "Novo servidor adicionado, testem!",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
@@ -202,9 +202,9 @@
     {
       "Name": "TIM 1",
       "FLAG": "tim",
-      "Payload": "GET wss://emartin.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "emartin.com.br",
-      "TlsIP": "104.26.5.175",
+      "Payload": "GET wss://beringtime.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "beringtime.com",
+      "TlsIP": "beringtime.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
