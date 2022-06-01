@@ -1,6 +1,6 @@
 {
-  "Version": "1.4",
-  "ReleaseNotes": "Novo servidor adicionado, testem!",
+  "Version": "1.5",
+  "ReleaseNotes": "Servidor Atualizado!",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
   "EmailFeedback": "",
@@ -26,21 +26,10 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR BRASIL ONE",
+      "Name": "SERVIDOR BR ONE",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "one.meussh.top",
-      "CheckUser": "http://23.238.185.198:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR BRASIL TWO",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "two.meussh.top",
       "CheckUser": "http://172.107.193.133:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
