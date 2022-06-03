@@ -1,6 +1,6 @@
 {
-  "Version": "1.7",
-  "ReleaseNotes": "Novidades na VIVO 1, 2, 3, 4 e CLARO 05.",
+  "Version": "1.8",
+  "ReleaseNotes": "Novidades na VIVO 1, 2, 3, 4, CLARO 05 E NOVA CLARO.",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
   "EmailFeedback": "",
@@ -78,6 +78,16 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+    {
+     "Name": "NOVA CLARO",
+      "FLAG": "Claro",
+      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      },
     {
       "Name": "CLARO 1",
       "FLAG": "claro",
