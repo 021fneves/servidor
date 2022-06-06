@@ -1,6 +1,6 @@
 {
-  "Version": "1.8",
-  "ReleaseNotes": "Novidades na VIVO 1, 2, 3, 4, CLARO 05 E NOVA CLARO.",
+  "Version": "1.9",
+  "ReleaseNotes": "Novos servidores adicionados.",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
   "EmailFeedback": "",
@@ -26,11 +26,33 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR BR ONE",
+      "Name": "SERVIDOR SP 1",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "one.meussh.top",
-      "CheckUser": "http://172.107.193.133:5454/checkUser",
+      "ServerIP": "sp1.meussh.top",
+      "CheckUser": "http://sp1.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR SP 2",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "sp2.meussh.top",
+      "CheckUser": "http://sp2.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR PB 1",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "pb1.meussh.top",
+      "CheckUser": "http://pb1.meussh.top:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
