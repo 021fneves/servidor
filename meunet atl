@@ -1,5 +1,5 @@
 {
-  "Version": "2.1",
+  "Version": "2.2",
   "ReleaseNotes": "Novidades na Tim.",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
@@ -31,17 +31,6 @@
       "FLAG": "br.png",
       "ServerIP": "sp1.meussh.top",
       "CheckUser": "http://sp1.meussh.top:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR SP 2",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "sp2.meussh.top",
-      "CheckUser": "http://sp2.meussh.top:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
