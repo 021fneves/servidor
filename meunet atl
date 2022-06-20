@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.6",
-  "ReleaseNotes": "Novidades na claro, testem!",
+  "Version": "2.3.7",
+  "ReleaseNotes": "SERVIDOR ÚNICO NO APLICATIVO",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
   "EmailFeedback": "",
@@ -26,18 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR SP 1",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "sp1.meussh.top",
-      "CheckUser": "http://sp1vld.meussh.top:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR PB 1",
+      "Name": "SERVIDOR 01",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pb1.meussh.top",
