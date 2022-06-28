@@ -1,5 +1,5 @@
 {
-  "Version": "2.4.0",
+  "Version": "2.4.1",
   "ReleaseNotes": "ATUALIZAÇÃO PARA COREÇÃO DO BUG DA VALIDADE NO APLICATIVO",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
@@ -30,7 +30,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pb1.meussh.top",
-      "CheckUser": "http://pb1vld.meussh.top:5050/checkUser",
+      "CheckUser": "http://pb1vld.meussh.top:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
