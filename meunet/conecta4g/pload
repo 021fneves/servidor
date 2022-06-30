@@ -1,11 +1,11 @@
 {
   "Version": "1.0.0",
   "ReleaseNotes": "APLICATIVO VERSÃO 1.0.0",
-  "UrlUpdate": "https://021fneves.github.io/servidor/meunet/conecta4g/payload",
-  "Sms": "https://021fneves.github.io/servidor/meunet/conecta4g/sms",
+  "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet/conecta4g/payload",
+  "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet/conecta4g/sms",
   "EmailFeedback": "",
   "UrlContato": "https://fast.com",
-  "UrlTermos": "https://021fneves.github.io/servidor/meunet/conecta4g/termos.html",
+  "UrlTermos": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet/conecta4g/termos",
   "CheckUser": "true",
   "Udp": [
     {
