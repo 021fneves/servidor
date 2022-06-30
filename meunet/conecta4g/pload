@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "APLICATIVO VERSÃO 1.0.1 ATUALIZADO",
+  "Version": "1.0.0",
+  "ReleaseNotes": "APLICATIVO VERSÃO 1.0.0 ATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet/conecta4g/pload",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet/conecta4g/sms",
   "EmailFeedback": "",
