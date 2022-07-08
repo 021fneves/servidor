@@ -1,5 +1,5 @@
 {
-  "Version": "2.4.5",
+  "Version": "2.4.6",
   "ReleaseNotes": "OPERADORAS ATUALIZADAS, Testem",
   "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20atl",
   "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/meunet%20sms",
@@ -38,6 +38,16 @@
     }
   ],
   "Networks": [
+    {
+      "Name": "VIVO RIO 0",
+      "FLAG": "vivo",
+      "Payload": "GET wss: //api.bitso.com/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf] Conexão: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "api.bitso.com",
+      "TlsIP": "172.64.195.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
     {
       "Name": "VIVO ON",
       "FLAG": "vivo",
