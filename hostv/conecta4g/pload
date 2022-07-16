@@ -165,7 +165,7 @@
 {
       "Name": "VIVO NOVA",
       "FLAG": "vivo",
-      "Payload": "GET wss://rapehun.com/ HTTP/1.1[crlf]Host: servidor.murphyroteia.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://rapehun.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "rapehun.com",
       "TlsIP": "rapehun.com",
       "ProxyIP": "",
@@ -585,7 +585,7 @@
 {
       "Name": "🟣VIVO PLANO EASY",
       "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: subdominioCloudflareAqui[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "vivo360.vivo.com.br",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
@@ -854,7 +854,7 @@
 {
    "Name": "TIM SPEED",
    "FLAG": "tim",
-   "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[lf]Host: domínio.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+   "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
    "SNI": "www.alura.com.br",
    "TlsIP": "104.18.40.41",
    "ProxyIP": "",
@@ -1152,7 +1152,7 @@
    User-Agent:www.snapchat.com
    X-Forward-Host: www.whatsapp.net
    Content-Location:33333333[crlf]
-   HTTP/1.0[crlf]HOST:www.snapchat.com[crlf][crlf]
+   HTTP/1.0[crlf]Host: [app_host][crlf][crlf]
    Connection: keep-alive[crlf]'",
    "SNI": "",
    "TlsIP": "",
@@ -1353,7 +1353,7 @@
 {
 "Name": "🔴🇧🇷CLARO SPEED [09]",
 "FLAG": "claro",
-"Payload": "GET wss: //stage-corp.kaltura.com/ HTTP/1.1[crlf]Host: br.wellison.xyz [crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf ",
+"Payload": "GET wss: //stage-corp.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf ",
 "SNI": " stage-corp.kaltura.com ",
 "TlsIP": " stage-corp.kaltura.com ",
 "ProxyIP": " stage-corp.kaltura.com ",
@@ -1363,7 +1363,7 @@
 {
 "Name": "CLARO🔴🇧🇷 SPEED [10]",
 "FLAG": "claro",
-"Payload": "GET wss: //videos.kaltura.com HTTP/1.1[crlf]Host: br.wellison.xyz [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf] ]",
+"Payload": "GET wss: //videos.kaltura.com HTTP/1.1[crlf]Host: [app_host][app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf] ]",
 "SNI": " videos.kaltura.com ",
 "TlsIP": "162.159.135.91",
 "IP de Proxy": "",
@@ -1643,7 +1643,7 @@
   {
 "Name": "CLARO BR",
 "FLAG": "claro",
-"Payload": "GET wss://No.descomplica.com.br/ HTTP/1.1[crlf]Host: servidor.murphyroteia.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+"Payload": "GET wss://No.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
 "SNI": "No.descomplica.com.br",
 "TlsIP": "199.60.103.228",
 "ProxyIP": "199.60.103.228",
@@ -1803,7 +1803,7 @@
   {
    "Name": "OI NEW 3",
    "FLAG": "oi",
-   "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "[app_host]",
    "TlsIP": "104.16.51.91",
    "ProxyIP": "",
@@ -1813,7 +1813,7 @@
 {
       "Name": "Oi FAST",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
@@ -1833,7 +1833,7 @@
     {
       "Name": "Oi SPEED",
       "FLAG": "oi",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: www.meirassnet.xyztvps.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -1863,7 +1863,7 @@
     {
    "Name": "OI ON 3",
    "FLAG": "oi",
-   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
    "SNI": "oii.gdmhost.ga",
    "TlsIP": "oii.gdmhost.ga",
    "ProxyIP": "oii.gdmhost.ga",
@@ -1983,7 +1983,7 @@
     {
    "Name": "OI [PROXY 3]",
    "FLAG": "oi",
-   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
    "SNI": "oii.gdmhost.ga",
    "TlsIP": "oii.gdmhost.ga",
    "ProxyIP": "oii.gdmhost.ga",
