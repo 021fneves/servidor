@@ -1,11 +1,11 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   
   "ReleaseNotes": "NOVA ATUALIZAÇÃO DISPONÍVEL.\n\n 
-  VERSÃO 1.0.3\n\n
+  VERSÃO 1.0.4\n\n
   CLIQUE ATUALIZAR E BAIXE AGORA!\n\n
   NOVIDADES:\n\n
-  OPERADORAS ATUALIZADAS,\n
+  OPERADORA VIVO ATUALIZADA,\n
   TESTEM!",
  
  "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/hostv/conecta4g/pload",
@@ -51,6 +51,16 @@
     }
   ],
   "Networks": [
+    {
+      "Name": "⚫VIVO ATUALIZADO IVP4",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "xrzmtzpdlx.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
     {
       "Name": "🚑VIVO ON 🟢 📡",
       "FLAG": "vivo",
