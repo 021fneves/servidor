@@ -48,6 +48,105 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 02",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor02.meussh.top",
+      "CheckUser": "http://servidor02vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 03",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor03.meussh.top",
+      "CheckUser": "http://servidor03vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 04",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor04.meussh.top",
+      "CheckUser": "http://servidor04vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 05",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor05.meussh.top",
+      "CheckUser": "http://servidor05vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 06",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor06.meussh.top",
+      "CheckUser": "http://servidor06vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 07",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor07.meussh.top",
+      "CheckUser": "http://servidor07vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 08",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor08.meussh.top",
+      "CheckUser": "http://servidor08vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 09",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor09.meussh.top",
+      "CheckUser": "http://servidor09vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 10",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor10.meussh.top",
+      "CheckUser": "http://servidor10vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
