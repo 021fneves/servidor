@@ -1,0 +1,304 @@
+{
+  "Version": "1.0.0",
+  
+  "ReleaseNotes": "NOVA ATUALIZAÇÃO DISPONÍVEL.\n\n 
+  VERSÃO 1.0.0\n\n
+  CLIQUE ATUALIZAR E BAIXE AGORA!\n\n
+  NOVIDADES:\n\n
+  OPERADORAS ATUALIZADAS,\n
+  TESTEM!",
+ 
+ "UrlUpdate": "https://raw.githubusercontent.com/021fneves/servidor/main/brasnet/conecta4g/pload",
+  "Sms": "https://raw.githubusercontent.com/021fneves/servidor/main/brasnet/conecta4g/sms",
+  "EmailFeedback": "",
+  "UrlContato": "https://fast.com",
+  "UrlTermos": "https://raw.githubusercontent.com/021fneves/servidor/main/brasnet/conecta4g/termos",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "SERVIDOR 01",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor01.meussh.top",
+      "CheckUser": "http://servidor01vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 02",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor02.meussh.top",
+      "CheckUser": "http://servidor02vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 03",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor03.meussh.top",
+      "CheckUser": "http://servidor03vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 04",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor04.meussh.top",
+      "CheckUser": "http://servidor04vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 05",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor05.meussh.top",
+      "CheckUser": "http://servidor05vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 06",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor06.meussh.top",
+      "CheckUser": "http://servidor06vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 07",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor07.meussh.top",
+      "CheckUser": "http://servidor07vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 08",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor08.meussh.top",
+      "CheckUser": "http://servidor08vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 09",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor09.meussh.top",
+      "CheckUser": "http://servidor09vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+	{
+      "Name": "SERVIDOR 10",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidor10.meussh.top",
+      "CheckUser": "http://servidor10vld.meussh.top:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "🚑VIVO ON 🟢 📡",
+      "FLAG": "vivo",
+      "Payload": "GET wss://legado.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "legado.vivo.com.br",
+      "TlsIP": "104.21.11.51",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+{
+      "Name": "🟣VIVO ROTATIVA🟣",
+      "FLAG": "vivo",
+      "Payload": "GET wss://[rotate=power4fit.com;bolsas.alfaumuarama.edu.br;eventos.alfaumuarama.edu.br;concursos.alfaumuarama.edu.br;legado.vivo.com.br;carrinho-pos-familia.vivo.com.br;unpkg.com;cdnjs.cloudflare.com;vivoemdia.vivo.com.br;fly218.com;rapehun.com] HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.21.11.51",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "🛑🛑VIVO SV2🛑🛑",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "live.vivo.com.br",
+      "ProxyIP": "13.249.120.88",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+ {
+   "Name": "🟣VIVO 1 GRAÇAS A DEUS",
+    "FLAG": "vivo",
+    "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+    "SNI": "unpkg.com",
+    "TlsIP": "172.67.165.43",
+    "ProxyIP": "",
+    "ProxyPort": "443",
+    "Info": "Tlsws"
+      },
+      {
+       "Name": "🟣VIVO 2 GRAÇAS A DEUS",
+       "FLAG": "vivo",
+          "Payload": "GET wss://carrinho-pos-familia.vivo.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+          "SNI": "carrinho-pos-familia.vivo.com.br",
+          "TlsIP": "172.67.165.43",
+          "ProxyIP": "",
+          "ProxyPort": "443",
+          "Info": "Tlsws"
+      },
+      {
+      "Name": "╰┈[☞>🔵 TIM 01",
+      "FLAG": "tim",
+      "Payload": "GET wss://api-tim.oston.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "api-tim.oston.io",
+      "TlsIP": "api-tim.oston.io",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "╰┈[☞>🔵 TIM 02",
+      "FLAG": "tim",
+      "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "172.67.188.168",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "╰┈[☞>🔵 TIM 1 NOVO",
+      "FLAG": "tim",
+      "Payload": "GET wss://texugo.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "texugo.alura.com.br",
+      "TlsIP": "172.67.188.168",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+  },
+  {
+      "Name": "╰┈[☞>🔵 TIM 2 NOVO",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+  },
+  {
+      "Name": "🔴CLARO [02]",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "4.icanhazip.com",
+      "ProxyIP": "gapi.storyblok.com",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+  {
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.55.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+       },
+  {
+   "Name": "OI [PROXY 5]",
+   "FLAG": "oi",
+   "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "[app_host]",
+   "TlsIP": "104.16.51.91",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+ },
+ {
+      "Name": "OI A01",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI A02",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.53.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI A03",
+      "FLAG": "oi",
+      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.51.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
