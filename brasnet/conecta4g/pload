@@ -371,6 +371,16 @@
   ],
   "Networks": [
     {
+      "Name": "⚫VIVO ATUALIZADO IVP4",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "xrzmtzpdlx.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
       "Name": "🚑VIVO ON 🟢 📡",
       "FLAG": "vivo",
       "Payload": "GET wss://legado.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
